@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+        https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>com.howtodoinjava.app</groupId>
+	<artifactId>HelloWorldApp</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
+
+	<name>HelloWorldApp</name>
+	<url>http://maven.apache.org</url>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
+	</properties>
+
+	<modules>
+		<module>user-login-service</module>
+		<module>flight-service</module>
+		<module>hotel-service</module>
+		<module>booking-service</module>
+		<module>payment-service</module>
+		<module>notification-service</module>
+		<module>jet-set-stay-api-gateway</module>
+		<module>jet-set-stay-service-discovery</module>
+	</modules>
+</project>
